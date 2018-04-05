@@ -1,0 +1,12 @@
+.#{$suffix}-modal {
+
+  .ws-page-container {
+    ul.products {
+      li.product {
+        &.product-empty {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}

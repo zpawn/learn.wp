@@ -1,0 +1,1 @@
+!function(n){"use strict";setTimeout(function(){var i=window.location.host,t=window.location.pathname.split("/").filter(function(n){return""!==n}),a={links:[],langs:[]};n(".js-pug-lang").each(function(i,t){a.links[i]=t,a.langs[i]=n(t).data("pugLang")}),-1!==n.inArray(t[0],a.langs)&&t.shift(),a.links.map(function(n,o){n.href="//"+i+"/"+a.langs[o]+"/"+t.join("/")})},0)}(jQuery);

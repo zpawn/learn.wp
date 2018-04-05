@@ -1,0 +1,21 @@
+{
+  "name": "pug-qtranslate-x-custom-swither",
+  "description": "Very beautiful fullpage ajax WooCommerce product search",
+  "main": "gulpfile.js",
+  "authors": [
+    "zpawn <ilia.makarov@me.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/zpawn/wp.fullpage.search",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "purl": "2.3.2"
+  }
+}
