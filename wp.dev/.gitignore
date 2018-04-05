@@ -1,0 +1,11 @@
+## All into ignore
+**/*.*
+
+## Ignore files
+!.gitignore
+!/README.md
+!wp-content/themes/wpdev/**/*.*
+!wp-content/plugins/recipe/**/*.*
+!wp-content/plugins/email-recipe.php
+!wp-content/themes/mh-magazine-lite/**/*.*
+!wp-content/themes/mh-magazine-lite-child/**/*.*

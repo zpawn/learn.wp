@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Recipe\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-29 21:14+0000\n"
+"PO-Revision-Date: 2018-03-29 21:14+0000\n"
+"Last-Translator: zpawn <ilia.makarov@me.com>\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: process/filter-content.php:25
+msgid "Ingredients"
+msgstr ""
+
+#: process/filter-content.php:26
+msgid "Cooking Time"
+msgstr ""
+
+#: process/filter-content.php:27
+msgid "Utensils Required"
+msgstr ""
+
+#: process/filter-content.php:28
+msgid "Level"
+msgstr ""
+
+#: process/filter-content.php:29
+msgid "Type"
+msgstr ""
+
+#: process/filter-content.php:30
+msgid "Reting"
+msgstr ""
+
+#. Name of the plugin
+#: includes/init.php:10 includes/init.php:11 includes/init.php:13
+msgid "Recipe"
+msgstr ""
+
+#: includes/init.php:12
+msgid "Recipes"
+msgstr "Рецепты"
+
+#: includes/init.php:14
+msgid "Add New"
+msgstr ""
+
+#: includes/init.php:15
+msgid "Add New Recipe"
+msgstr ""
+
+#: includes/init.php:16
+msgid "New Recipe"
+msgstr ""
+
+#: includes/init.php:17
+msgid "Edit Recipe"
+msgstr ""
+
+#: includes/init.php:18
+msgid "View Recipe"
+msgstr ""
+
+#: includes/init.php:19
+msgid "All Recipe"
+msgstr ""
+
+#: includes/init.php:20
+msgid "Search Recipes"
+msgstr ""
+
+#: includes/init.php:21
+msgid "Parent Recipes:"
+msgstr ""
+
+#: includes/init.php:22
+msgid "Not Recipes found."
+msgstr ""
+
+#: includes/init.php:23
+msgid "Not Recipes Found in Trash"
+msgstr ""
+
+#: includes/init.php:27
+msgid "A custom post type for recipes."
+msgstr ""
+
+#: includes/admin/columns.php:14
+msgid "Title"
+msgstr ""
+
+#: includes/admin/columns.php:15
+msgid "Author"
+msgstr ""
+
+#: includes/admin/columns.php:16
+msgid "Categories"
+msgstr ""
+
+#: includes/admin/columns.php:17
+msgid "Ratings Count"
+msgstr ""
+
+#: includes/admin/columns.php:18
+msgid "Average Rating"
+msgstr ""
+
+#: includes/admin/columns.php:19
+msgid "Date"
+msgstr ""
+
+#: includes/admin/create-metaboxes.php:10
+msgid "Recipe Options"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"A simple WordPress plugin that allows users to create recipe and rate those "
+"recipe."
+msgstr ""
+
+#. Author of the plugin
+msgid "Ilia Makarov"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "//github.com/zpawn"
+msgstr ""
