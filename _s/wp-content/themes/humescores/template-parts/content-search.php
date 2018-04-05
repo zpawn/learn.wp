@@ -1,8 +1,8 @@
 <?php
 /**
- * Template part for displaying results in search pages
+ * Template part for displaying results in search pages.
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package Humescores
  */
@@ -15,15 +15,10 @@
 
 		<?php if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php
-			humescores_posted_on();
-			humescores_posted_by();
-			?>
+			<?php humescores_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-
-	<?php humescores_post_thumbnail(); ?>
 
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
@@ -32,4 +27,4 @@
 	<footer class="entry-footer">
 		<?php humescores_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->
+</article><!-- #post-## -->
