@@ -1,0 +1,93 @@
+// Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@woocommerce-border-width: @global-border-width;
+@badge-danger-background: @global-primary-background;
+@badge-color: @global-contrast-color;
+
+.woocommerce,
+.woocommerce-page {
+
+    a.button,
+    button.button,
+    input.button,
+    input[type="submit"],
+    #respond input#submit,
+    #content input.button,
+    .widget_price_filter .price_slider_amount .button {
+        min-height: @button-small-height !important;
+        line-height: @button-small-line-height;
+        font-size: @button-small-font-size;
+    }
+
+    // Button Style in alert boxes
+    .woocommerce-message,
+    .woocommerce-error,
+    .woocommerce-info {
+
+        .button {
+            border-color: transparent;
+            background-color: @button-primary-background;
+            color: @button-primary-color;
+        }
+
+        .button:hover,
+        .button:focus {
+            background-color: @button-primary-hover-background;
+            color: @button-primary-hover-color;
+        }
+
+        .button:active,
+        .button.uk-active {
+            background-color: @button-primary-active-background;
+            color: @button-primary-active-color;
+        }
+
+    }
+
+    a.shipping-calculator-button,
+    [class*='tag-link-'] { text-decoration: none; }
+
+    // Letter spacing in quantity buttons
+    .quantity,
+    #content .quantity {
+
+        .plus,
+        .minus { letter-spacing: 0; }
+
+    }
+
+    // Tabs active background
+    div.product .woocommerce-tabs ul.tabs li.active a,
+    #content div.product .woocommerce-tabs ul.tabs li.active a { background: @panel-box-background; }
+
+
+    // Account page
+    form.login,
+    form.checkout_coupon,
+    form.register,
+    .addresses .col-1,
+    .addresses .col-2 { padding: 0; }
+
+    // Borders
+    table.shop_table td,
+    table.shop_table tfoot td,
+    table.shop_table tfoot th,
+    table.shop_attributes,
+    .cart-collaterals .cart_totals tr td,
+    .cart-collaterals .cart_totals tr th,
+    &.widget_shopping_cart .total,
+    .widget_shopping_cart .total,
+    #payment ul.payment_methods li,
+    #payment div.form-row { border-top-color: @global-muted-border; }
+
+
+    table.shop_attributes td,
+    table.shop_attributes th { border-bottom-color: @global-muted-border; }
+
+    p.stars a.star-1,
+    p.stars a.star-2,
+    p.stars a.star-3,
+    p.stars a.star-4,
+    p.stars a.star-5 { border-right-color: @global-muted-border; }
+
+}
