@@ -21,7 +21,25 @@
 }
 
 .site-branding {
+  display: flex;
   min-height: 65px;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 65px;
+  }
+}
+
+.custom-logo-link {
+  margin-right: 1em;
+
+  img {
+    display: block;
+    height: 60px;
+    width: auto;
+  }
 }
 
 .site-title {
