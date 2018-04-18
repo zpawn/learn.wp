@@ -23,8 +23,8 @@ add_action( 'rest_api_init', function () {
 } );
 
 function pug_fps_scripts () {
-    wp_enqueue_style('pug_fps_style', plugin_dir_url(__FILE__). '/dist/fulltext.search.css');
-    wp_enqueue_script('pug_fps_script', plugin_dir_url(__FILE__) . '/dist/fulltext.search.js', ['jquery']);
+    wp_enqueue_style('pug_fps_style', plugin_dir_url(__FILE__). 'dist/fulltext.search.css');
+    wp_enqueue_script('pug_fps_script', plugin_dir_url(__FILE__) . 'dist/fulltext.search.js', ['jquery']);
 }
 
 function pug_fullpage_search_shortcode ($attr, $content = null) {
