@@ -20,7 +20,7 @@
     }
 
     FullPageSearch.prototype._bindEvents = function () {
-        this.$btnSearch.on('click', this.toggleModal.bind(this));
+        this.$body.on('click', '.js-fps-open', this.toggleModal.bind(this));
         this.$body.on('keyup', this.escKeyUp.bind(this));
         this.$modal.on('keyup', '.js-fps-search-field', this._eventSearch.bind(this));
         this.$modal.on('focusout', '.js-fps-search-field', this._eventSearch.bind(this));
@@ -28,7 +28,7 @@
         this.$form.on('submit', this.disableSubmitForm);
     };
 
-    FullPageSearch.prototype.toggleModal = function () {
+    FullPageSearch.prototype.toggleModal = function (e) {
         this.$body.toggleClass(this.classSuffix + '-open');
         this.$modal.toggleClass('open');
 

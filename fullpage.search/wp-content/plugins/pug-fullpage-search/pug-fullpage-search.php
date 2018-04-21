@@ -24,7 +24,7 @@ add_action( 'rest_api_init', function () {
 
 function pug_fps_scripts () {
     wp_enqueue_style('pug_fps_style', plugin_dir_url(__FILE__). 'dist/fulltext.search.css');
-    wp_enqueue_script('pug_fps_script', plugin_dir_url(__FILE__) . 'dist/fulltext.search.js', ['jquery']);
+    wp_enqueue_script('pug_fps_script', plugin_dir_url(__FILE__) . 'dist/fulltext.search.js', ['jquery'], '1.0.1');
 }
 
 function pug_fullpage_search_shortcode ($attr, $content = null) {
@@ -71,8 +71,8 @@ function pug_fps_modal () {
 
 function pug_fps_get_products(WP_REST_Request $request) {
     $products  = array_reduce(get_posts([
-        'post_type' => $request->get_param('post_type'),
-        's' => $request->get_param('s'),
+        'post_type' => sanitize_text_field($request->get_param('post_type')),
+        's' => sanitize_text_field($request->get_param('s')),
     ]), function ($products, $p) {
 
         $wc = wc_get_product($p)->get_data();
